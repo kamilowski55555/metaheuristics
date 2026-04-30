@@ -1,0 +1,51 @@
+======================================================================
+  EA vs DE Comparison Report
+  Dimensions: 10  |  Generations: 300  |  Population: 50
+======================================================================
+
+  Function: SPHERE
+                                     EA                DE
+  Best (final)                 0.914542          0.004605  <- DE wins
+  Mean (final)                 1.984208          0.012618
+  Worst (final)                2.461736          0.026358
+  Gen < 1.0 (EA)                    112
+  Gen < 1.0 (DE)                    118
+  --------------------------------------------------------
+
+  Function: ROSENBROCK
+                                     EA                DE
+  Best (final)               398.206568         12.107632  <- DE wins
+  Mean (final)               792.069330         18.658640
+  Worst (final)             1064.566070         25.055593
+  Gen < 1.0 (EA)                  never
+  Gen < 1.0 (DE)                  never
+  --------------------------------------------------------
+
+  Function: RASTRIGIN
+                                     EA                DE
+  Best (final)                32.579287         35.963076  <- EA wins
+  Mean (final)                56.760577         73.799403
+  Worst (final)               62.506510         92.927419
+  Gen < 1.0 (EA)                  never
+  Gen < 1.0 (DE)                  never
+  --------------------------------------------------------
+
+  Function: ACKLEY
+                                     EA                DE
+  Best (final)                 8.536759          1.657584  <- DE wins
+  Mean (final)                10.622841          2.591316
+  Worst (final)               11.274652          3.244554
+  Gen < 1.0 (EA)                  never
+  Gen < 1.0 (DE)                  never
+  --------------------------------------------------------
+
+  Function: SCHWEFEL
+                                     EA                DE
+  Best (final)              1389.758314       1456.630755  <- EA wins
+  Mean (final)              1880.770282       1843.446901
+  Worst (final)             2085.166772       2278.720673
+  Gen < 1.0 (EA)                  never
+  Gen < 1.0 (DE)                  never
+  --------------------------------------------------------
+
+======================================================================
